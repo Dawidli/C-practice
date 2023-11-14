@@ -3,6 +3,20 @@
 Info gathered from:
 https://www.w3schools.com/cpp/cpp_classes.asp
 
+## Table of contents
+1. [ Variables. ](#var)
+2. [ Operators. ](#operator)
+3. [ Strings. ](#string)
+4. [ Switch. ](#switch)
+5. [ Loops. ](#loops)
+6. [ Continue. ](#continue)
+7. [ Structures. ](#struct)
+8. [ References. ](#ref)
+9. [ Functions. ](#func)
+10. [ Recursion. ](#recur)
+
+
+<a name="var"></a>
 ## Variables
 
 ### C++ Variables
@@ -18,6 +32,7 @@ double	: (8 byte)Float, both positive and negative 123.2 & -123.2
 It's possible to create multiply empty variables at the same time.
 int x,y,z;
 ```
+<a name="operator"></a>
 ## Operators
 
 ### Arithmetic Operators
@@ -61,7 +76,7 @@ int x,y,z;
 ||	: Logical or
 !	: Logical not
 ```
-
+<a name="string"></a>
 ## Strings
 
 ```
@@ -92,7 +107,7 @@ int time = 20;
 string result = (time < 18) ? "Good day." : "Good evening.";
 cout << result;
 ```
-
+<a name="switch"></a>
 ## Switch
 
 ```
@@ -118,7 +133,8 @@ switch(expression) {
 }
 ```
 
-## Loop
+<a name="loops"></a>
+## Loops
 
 ### While Loop
 
@@ -167,7 +183,7 @@ for (int i : myNumbers) {
   cout << i << "\n";
 }
 ```
-
+<a name="continue"></a>
 ## C++ Continue
 ```
 The continue statement breaks one iteration (in the loop),
@@ -183,7 +199,7 @@ for (int i = 0; i < 10; i++) {
   cout << i << "\n";
 }
 ```
-
+<a name="struct"></a>
 ## Structures (Struct)
 
 ### Single struct
@@ -224,7 +240,7 @@ struct myDataType { // This structure is named "myDataType"
   string myString;
 };
 ```
-
+<a name="ref"></a>
 ## References
 
 ### Creating References
@@ -323,7 +339,7 @@ int main() {
   return 0;
 }
 ```
-
+<a name="func"></a>
 ### Function Overloading
 ```
 int myFunction(int x)
@@ -348,7 +364,7 @@ int main() {
   return 0;
 }
 ```
-
+<a name="recur"></a>
 ### Recursion
 Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve. <br>
 
